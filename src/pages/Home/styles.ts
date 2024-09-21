@@ -16,5 +16,7 @@ export const TextContainer = styled.div`
     }
 `
 export const Image = styled.img`
+    width: 40vw;
+    height: 25vw;
     border-radius: 2vw;
 `
