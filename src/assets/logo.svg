@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Fundo circular -->
+  <circle cx="100" cy="100" r="95" stroke="#40efa7" stroke-width="5" fill="none"/>
+  
+  <!-- Desenho de um celular simples no centro -->
+  <rect x="70" y="50" width="60" height="100" rx="10" ry="10" fill="#cecece" stroke="#000" stroke-width="2"/>
+  <circle cx="100" cy="135" r="5" fill="#000"/>
+  <rect x="80" y="60" width="40" height="60" fill="white"/>
+
+  <!-- Setas do símbolo de reciclagem ao redor do celular -->
+  <polygon points="40,80 60,70 50,90" fill="#40efa7"/>
+  <polygon points="160,80 140,70 150,90" fill="#40efa7"/>
+  <polygon points="100,170 120,160 110,180" fill="#40efa7"/>
+
+  <!-- Setas curvadas que ligam as setas do símbolo de reciclagem -->
+  <path d="M60 70 Q50 50, 80 40" stroke="#40efa7" stroke-width="5" fill="none"/>
+  <path d="M140 70 Q150 50, 120 40" stroke="#40efa7" stroke-width="5" fill="none"/>
+  <path d="M110 160 Q100 190, 90 160" stroke="#40efa7" stroke-width="5" fill="none"/>
+</svg>
