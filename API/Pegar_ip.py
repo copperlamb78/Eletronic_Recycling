@@ -1,9 +1,15 @@
+from flask import request
 import requests
 
-
-# função para pegar Ip
 def get_ip():
-    response = requests.get('https://api.ipify.org?format=json')
-    ip = response.json()['ip']
-    return ip
+
+    user_ip = request.headers.get('Cf-Connecting-Ip') or request.headers.get('True-Client-Ip')
     
+    if not user_ip:
+        user_ip = request.headers.get('X-Forwarded-For')
+        if user_ip:
+            user_ip = user_ip.split(',')[0]  # Pega o primeiro IP
+        else:
+            user_ip = request.remote_addr
+
+    return user_ip

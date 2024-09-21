@@ -19,7 +19,7 @@ interface AdressProps {
 
 export function Address() {
 
-    const apiURL = 'http://127.0.0.1:5000/api/enderecos'
+    const apiURL = 'https://api-for-eletronic-recycling.onrender.com/api/enderecos'
 
     const [address, setAddress] = useState([])
     const [loading, setLoading] = useState(true)

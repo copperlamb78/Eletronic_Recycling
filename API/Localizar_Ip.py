@@ -8,6 +8,8 @@ app = Flask(__name__)
 def Local_geografy_ip(ip):
     api_url = f"https://api.ip2location.io/?key=9F01E6D296717F128B6B3B39EFCDB82E&ip={ip}"
 
+    
+
     response = requests.get(api_url)
 
     if response.status_code == 200:
