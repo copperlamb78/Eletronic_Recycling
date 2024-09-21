@@ -28,6 +28,7 @@ O descarte inadequado de lixo eletrônico pode causar sérios danos ao meio ambi
 
 ## 🗺️ Como Funciona?
 
+<<<<<<< HEAD
 1. [**Acesse o site.**](http://eletronic-recycling.netlify.app)
 2. **Veja o conteúdo educacional** na página principal e aprenda mais sobre a importância do descarte correto de lixo eletrônico.
 3. **Descubra os pontos de reciclagem** próximos a você na página de endereços.
